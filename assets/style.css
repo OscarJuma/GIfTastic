@@ -1,0 +1,47 @@
+body {
+    background: url("http://coresports.ie/wp-content/uploads/2013/06/Depositphotos_14809399_l-e1371574614998.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-family: Lobster;
+}
+
+.ratings {
+    color: rgb(153, 0, 255);
+    font-family: avenir;
+    font-size: 18px;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.btn-primary {
+    margin-left: 10px;
+    background: rgb(38, 255, 0);
+    color: rgb(23, 23, 24);
+}
+
+@media screen and (max-width: 480px) {
+    .movImage {
+        width: 350px;
+        height: 350px;
+    }
+    body {
+        background-color: rgb(255, 115, 0);
+    }
+}
+
+.form-control {
+    width: 35%;
+}
+
+#add {
+    font-size: 25px;
+    color: white;
+}

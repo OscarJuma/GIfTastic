@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GifTastic</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="container" style="background: transparent;">
+        <h1 class="text-center">Athletes</h1>
+        <br>
+        <br>
+        <div id="athlete-buttons"> </div>
+        <br>
+        <br>
+        <div class="container" id="btn" style="background: transparent;">
+            <form id="athlete-form">
+                <label id="add" for="athlete-input">Enter Athlete</label>
+                <input type="text" class="form-control" id="athlete-input">
+                <br>
+                <br>
+            </form>
+            <button onclick="submitButtonClicked()" type="button" id="add-athlete" class="btn btn-success">Submit</button>
+            <br>
+            <br>
+            <div id="athletes"> </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="assets/logic.js"></script>
+</body>
+
+</html>
